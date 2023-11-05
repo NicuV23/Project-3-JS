@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spanzuratoarea</title>
+    <style>
+      button {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 16px;
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        cursor: pointer;
+      }
+      button:disabled {
+        background-color: black;
+        cursor: not-allowed;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Spanzuratoarea</h1>
+    <p id="wordDisplay"></p>
+    <p id="guessesLeft">
+      Numar de incercari ramase: <span id="guesses">6</span>
+    </p>
+    <div id="alphabet">
+      <!-- Buton pentru fiecare litera din alfabet -->
+    </div>
+    <button onclick="resetGame()">Restart</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
