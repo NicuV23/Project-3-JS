@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spanzuratoarea</title>
+    <title>Hangman</title>
     <style>
       button {
         margin: 5px;
@@ -20,14 +20,13 @@
     </style>
   </head>
   <body>
-    <h1>Spanzuratoarea</h1>
+    <h1>Hangman</h1>
     <p id="wordDisplay"></p>
-    <p id="guessesLeft">
-      Numar de incercari ramase: <span id="guesses">6</span>
-    </p>
+    <p id="guessesLeft">Number of attempts: <span id="guesses">11</span></p>
     <div id="alphabet">
-      <!-- Buton pentru fiecare litera din alfabet -->
+      <!-- Button for each letter from alphabet -->
     </div>
+    <img id="hangmanImage" src="image1.jpg" width="200" height="200" />
     <button onclick="resetGame()">Restart</button>
 
     <script src="index.js"></script>
